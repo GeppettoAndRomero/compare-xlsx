@@ -1,0 +1,36 @@
+{
+  "name": "Compare Excel Workbooks \u2014 runlocally",
+  "short_name": "Compare XLSX",
+  "description": "Compare two XLSX, XLSM, or XLS workbooks by sheet name and cell position in your browser.",
+  "start_url": "/compare-xlsx/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/compare-xlsx/",
+  "icons": [
+    {
+      "src": "/compare-xlsx/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/compare-xlsx/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
