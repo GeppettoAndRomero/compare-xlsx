@@ -94,4 +94,9 @@ export const zh: ToolContent = {
     colophon: '由 Geppetto 开发和维护。部分代码使用 AI 辅助，审查和决定由维护者负责。',
     securityText: '安全',
   },
+
+  related: {
+    h2: '相关工具',
+    blogLinkText: '阅读技术说明',
+  },
 };
